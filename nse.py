@@ -123,6 +123,3 @@ def format_dataframe_result(result, start_date, end_date):
     return result
 
 """### Scrape Directly to DataFrame """
-
-df = scrape_data('15-01-2022','31-01-2022','TCS')
-print(df)
